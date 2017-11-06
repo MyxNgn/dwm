@@ -2,7 +2,7 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -78,7 +78,7 @@ static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_minus,  togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = editcmd } },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          {.v = webcmd } },
