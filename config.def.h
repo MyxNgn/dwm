@@ -71,7 +71,7 @@ static const char *rlightd[]  = { "rlight", "-d", "100", NULL };
 static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
-static const char *wall[] = { "walp", NULL };
+static const char *wall[] = { "feh", "--randomize", "--bg-fill", "/home/redsith/Pictures/Wallpapers/*", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
