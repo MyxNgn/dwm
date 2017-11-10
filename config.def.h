@@ -74,7 +74,7 @@ static const char *rlightd[]  = { "rlight", "-d", "100", NULL };
 static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
-static const char *wall[] = { "wal", "-i", "~/Pictures/Wallpapers/", NULL };
+static const char *wall[] = { "walp", NULL };
 
 #include "movestack.c"
 static Key keys[] = {
