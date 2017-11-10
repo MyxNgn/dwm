@@ -71,6 +71,7 @@ static const char *rlightd[]  = { "rlight", "-d", "100", NULL };
 static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
+static const char *wall[] = { "wal", "-i", "~/Pictures/Wallpapers/", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -78,15 +79,16 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = editcmd } },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          {.v = webcmd } },
-	{ 0,				XF86XK_AudioLowerVolume,	spawn,	{.v = rvold } },
-	{ 0,				XF86XK_AudioRaiseVolume,	spawn,	{.v = rvolu } },
-	{ 0,				XF86XK_AudioMute,		spawn,	{.v = rvolm } },
-	{ MODKEY,			XF86XK_AudioLowerVolume,	spawn,	{.v = rvolmin } },
-	{ MODKEY,			XF86XK_AudioRaiseVolume,	spawn,	{.v = rvolmax } },
-	{ 0,				XF86XK_MonBrightnessDown,	spawn,	{.v = rlightd } },
-	{ 0,				XF86XK_MonBrightnessUp,		spawn,	{.v = rlightu } },
-	{ MODKEY,			XF86XK_MonBrightnessDown,	spawn,	{.v = rlightmin } },
-	{ MODKEY,			XF86XK_MonBrightnessUp,		spawn,	{.v = rlightmax } },
+	{ 0,			                    	XF86XK_AudioLowerVolume,	spawn,	{.v = rvold } },
+	{ 0,			                    	XF86XK_AudioRaiseVolume,	spawn,	{.v = rvolu } },
+	{ 0,			                    	XF86XK_AudioMute,		spawn,	{.v = rvolm } },
+	{ MODKEY,	                    	XF86XK_AudioLowerVolume,	spawn,	{.v = rvolmin } },
+	{ MODKEY,	                    	XF86XK_AudioRaiseVolume,	spawn,	{.v = rvolmax } },
+	{ 0,			                    	XF86XK_MonBrightnessDown,	spawn,	{.v = rlightd } },
+	{ 0,			                    	XF86XK_MonBrightnessUp,		spawn,	{.v = rlightu } },
+	{ MODKEY,			                  XF86XK_MonBrightnessDown,	spawn,	{.v = rlightmin } },
+	{ MODKEY,			                  XF86XK_MonBrightnessUp,		spawn,	{.v = rlightmax } },
+  { MODKEY|ShiftMask,             XK_o,      spawn,          {.v = wall } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
