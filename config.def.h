@@ -12,7 +12,7 @@ static const char col_gray1[]       = "#1b1918";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_accent[]        = "#f22c40";
+static const char col_accent[]        = "#AF8D6C";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -74,7 +74,7 @@ static const char *rlightd[]  = { "rlight", "-d", "100", NULL };
 static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
-static const char *wall[] = { "walp", NULL };
+static const char *wall[] = { "feh", "--randomize", "--bg-fill", "/home/redsith/Pictures/Wallpapers/*", NULL };
 
 #include "movestack.c"
 static Key keys[] = {
