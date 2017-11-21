@@ -8,11 +8,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Terminus:size=8" };
 static const char dmenufont[]       = "Terminus:size=8";
-static const char col_gray1[]       = "#1b1918";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_accent[]        = "#CB221A";
+static const char col_gray1[]       = "#1D2021";
+static const char col_gray2[]       = "#EBDBB2";
+static const char col_gray3[]       = "#EBDBB2";
+static const char col_gray4[]       = "#3C3836";
+static const char col_accent[]        = "#FB4934";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
