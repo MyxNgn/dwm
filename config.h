@@ -74,7 +74,7 @@ static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
 static const char *wall[] = { "feh", "--randomize", "--bg-fill", "/home/redsith/Pictures/Wallpapers/*", NULL };
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
+static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", "-e", "tmux", NULL };
 //static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", "-e", "tmux", NULL };
 
 #include "movestack.c"
