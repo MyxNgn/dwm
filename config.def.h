@@ -16,8 +16,8 @@ static const char col_accent[]      = "#CD546C";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_accent },
-	[SchemeSel]  = { col_gray4, col_accent,  col_gray4  },
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
+	[SchemeSel]  = { col_gray4, col_accent,  col_accent },
 };
 
 /* tagging */
