@@ -8,16 +8,16 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "metis:size=8" };
 static const char dmenufont[]       = "metis:size=8";
-static const char col_gray1[]       = "#181512";
+static const char col_gray1[]       = "#071d22";
 static const char col_gray2[]       = "#0F0D0B";
-static const char col_gray3[]       = "#EFFCD3";
-static const char col_gray4[]       = "#EFFCD3";
-static const char col_accent[]      = "#CD546C";
+static const char col_gray3[]       = "#b3bec1";
+static const char col_gray4[]       = "#b3bec1";
+static const char col_accent[]      = "#7eb5ac";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
-	[SchemeSel]  = { col_gray4, col_accent,  col_accent },
+	[SchemeSel]  = { col_gray1, col_accent,  col_accent },
 };
 
 /* tagging */
