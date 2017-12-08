@@ -12,7 +12,7 @@ static const char col_gray1[]       = "#071d22";
 static const char col_gray2[]       = "#0F0D0B";
 static const char col_gray3[]       = "#b3bec1";
 static const char col_gray4[]       = "#b3bec1";
-static const char col_accent[]      = "#7eb5ac";
+static const char col_accent[]      = "#FD61A6";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
