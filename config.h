@@ -6,8 +6,8 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "metis:size=8" };
-static const char dmenufont[]       = "metis:size=8";
+static const char *fonts[]          = { "Terminus:size=8" };
+static const char dmenufont[]       = "Terminus:size=8";
 static const char col_dark[]       = "#221F1F";
 static const char col_light[]       = "#C3A87B";
 static const char col_accent[]      = "#574F4A";
@@ -73,7 +73,7 @@ static const char *rlightu[]  = { "rlight", "-i", "100", NULL };
 static const char *rlightmin[]  = { "rlight", "-s", "2000", NULL };
 static const char *rlightmax[]  = { "rlight", "-s", "10000", NULL };
 static const char *wall[] = { "feh", "--randomize", "--bg-fill", "/home/redsith/Pictures/Wallpapers/*", NULL };
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", "-e", "tmux", NULL };
+static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
 //static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", "-e", "tmux", NULL };
 
 #include "movestack.c"
