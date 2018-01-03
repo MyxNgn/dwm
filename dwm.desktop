@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DWM
+Comment=Runs the DWM Window manager
+Exec=/usr/bin/startdwm
+Type=Application
